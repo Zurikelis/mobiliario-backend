@@ -7,7 +7,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReact",
         policy => policy.WithOrigins(
                             "http://localhost:3000", // Tu URL local actual
-                            "https://tu-proxima-url-de-vercel.vercel.app" // La puedes poner aunque no exista aún
+                            "mobiliario-frontend-qthrev0cr-zurikelis-projects.vercel.app" // La puedes poner aunque no exista aún
                          )
                         .AllowAnyHeader()
                         .AllowAnyMethod());
