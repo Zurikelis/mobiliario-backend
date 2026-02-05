@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReact",
         policy => policy.WithOrigins(
-                            "mobiliario-frontend-qthrev0cr-zurikelis-projects.vercel.app" // La puedes poner aunque no exista aún
+                            "https://mobiliario-frontend.vercel.app/"
                          )
                         .AllowAnyHeader()
                         .AllowAnyMethod());
